@@ -14,6 +14,7 @@ spec:
     spec:
       containers:
       - name: rollouts-demo
+        image: argoproj/rollouts-demo:blue      
         [...]
   strategy:
     canary:
